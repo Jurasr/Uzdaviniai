@@ -1,0 +1,7 @@
+C:\Users\Juras Rabačauskas\Documents\C# KCS\Uzduotys\Uzduotys\bin\Debug\Uzduotys.exe.config
+C:\Users\Juras Rabačauskas\Documents\C# KCS\Uzduotys\Uzduotys\bin\Debug\Uzduotys.exe
+C:\Users\Juras Rabačauskas\Documents\C# KCS\Uzduotys\Uzduotys\bin\Debug\Uzduotys.pdb
+C:\Users\Juras Rabačauskas\Documents\C# KCS\Uzduotys\Uzduotys\obj\Debug\Uzduotys.csprojAssemblyReference.cache
+C:\Users\Juras Rabačauskas\Documents\C# KCS\Uzduotys\Uzduotys\obj\Debug\Uzduotys.csproj.CoreCompileInputs.cache
+C:\Users\Juras Rabačauskas\Documents\C# KCS\Uzduotys\Uzduotys\obj\Debug\Uzduotys.exe
+C:\Users\Juras Rabačauskas\Documents\C# KCS\Uzduotys\Uzduotys\obj\Debug\Uzduotys.pdb
