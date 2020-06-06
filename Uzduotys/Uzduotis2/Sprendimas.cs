@@ -13,32 +13,32 @@ using System.Threading.Tasks;
 
 namespace Uzduotys.Uzduotis2
 {
-    class Uzduotis2
+    class Sprendimas
     {
-        int KambarioIlgis;
-        int KambarioPlotis;
+        decimal KambarioIlgis;
+        decimal KambarioPlotis;
         decimal PlyteliuKaina;
         decimal NuostoliaiProc;
 
-        public Uzduotis2()
+        public Sprendimas()
         {
             
             Console.WriteLine("Kambario ilgis(m):");
-            Int32.TryParse(Console.ReadLine(), out KambarioIlgis);
+            Decimal.TryParse(Console.ReadLine(), out KambarioIlgis);
             while (KambarioIlgis <= 0)
             {
-                Console.WriteLine("Neteisingai įvestas kambario ilgis. Kambario ilgis turi būti sveikasis skaičius ir didesnis už 0.");
+                Console.WriteLine("Neteisingai įvestas kambario ilgis. Kambario ilgis turi būti didesnis už 0.");
                 Console.WriteLine("Kambario ilgis(m):");
-                Int32.TryParse(Console.ReadLine(), out KambarioIlgis);
+                Decimal.TryParse(Console.ReadLine(), out KambarioIlgis);
             }
 
             Console.WriteLine("Kambario plotis(m):");
-            Int32.TryParse(Console.ReadLine(), out KambarioPlotis);
+            Decimal.TryParse(Console.ReadLine(), out KambarioPlotis);
             while (KambarioPlotis <= 0)
             {
-                Console.WriteLine("Neteisingai įvestas kambario plotis. Kambario plotis turi būti sveikasis skaičius ir didesnis už 0.");
+                Console.WriteLine("Neteisingai įvestas kambario plotis. Kambario plotis turi būti didesnis už 0.");
                 Console.WriteLine("Kambario plotis(m):");
-                Int32.TryParse(Console.ReadLine(), out KambarioPlotis);
+                Decimal.TryParse(Console.ReadLine(), out KambarioPlotis);
             }
 
             Console.WriteLine("Plytelių kaina(EUR):");
@@ -59,18 +59,18 @@ namespace Uzduotys.Uzduotis2
             {
                 Console.WriteLine("Neteisingai įvestas nuostolių procentas. Nuostolių procentas turi būti tarp 0 ir 100 .");
                 Console.WriteLine("Nuostoliu padengimas(proc):");
-                Decimal.TryParse(Console.ReadLine(), out NuostoliaiProc);
+                TryParseNuostoliaiProc = Decimal.TryParse(Console.ReadLine(), out NuostoliaiProc);
             }
 
             GautiAtsakyma();
         }
 
-        public decimal GautiKaina()
+        private decimal GautiKaina()
         {
             return Math.Round(KambarioIlgis * KambarioPlotis * PlyteliuKaina * (1 + NuostoliaiProc / 100), 2);
         }
 
-        public void GautiAtsakyma()
+        private void GautiAtsakyma()
         {
             Console.WriteLine("Kambario Ilgis: {0}m, Kambario Plotis: {1}m, Nuostolių Padengimas: {2}%, Viso Kaina: {3} EUR.", KambarioIlgis, KambarioPlotis, NuostoliaiProc, GautiKaina());
         }

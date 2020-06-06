@@ -47,6 +47,10 @@
     <Compile Include="Uzduotis1\Sprendimas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Uzduotis3\Sprendimas.cs" />
+    <Compile Include="Uzduotis4\Sprendimas.cs" />
+    <Compile Include="Uzduotis5\Sprendimas.cs" />
+    <Compile Include="Uzduotis6\Sprendimas.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

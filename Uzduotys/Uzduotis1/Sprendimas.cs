@@ -12,12 +12,12 @@ using System.Threading.Tasks;
 
 namespace Uzduotys.Uzduotis1
 {
-    class Uzduotis1
+    class Sprendimas
     {
         int Mokiniai;
         int KonspektoLapai;
 
-        public Uzduotis1()
+        public Sprendimas()
         {
             Console.WriteLine("Mokinių kiekis:");
             Int32.TryParse(Console.ReadLine(), out Mokiniai);
@@ -36,14 +36,16 @@ namespace Uzduotys.Uzduotis1
                 Console.WriteLine("Lapų per konspektą kiekis:");
                 Int32.TryParse(Console.ReadLine(), out KonspektoLapai);
             }
+
+            GautiAtsakyma();
         }
 
-        public int GautiLapus()
+        private int GautiLapus()
         {
             return Mokiniai * KonspektoLapai;
         }
 
-        public void GautiAtsakyma()
+        private void GautiAtsakyma()
         {
             Console.WriteLine("Mokinių: {0}, Lapų per konspektą: {1}, Reikės iš viso lapų: {2}.", Mokiniai, KonspektoLapai, GautiLapus());
         }
