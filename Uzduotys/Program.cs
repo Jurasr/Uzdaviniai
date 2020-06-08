@@ -41,14 +41,43 @@ namespace Uzduotys
             new Uzduotys.Uzduotis5.Sprendimas();
             Console.WriteLine("**********************");
             Console.WriteLine();
-            */
 
             // 6 Uzduotis
             Console.WriteLine("***** 6 Uzduotis *****");
             new Uzduotys.Uzduotis6.Sprendimas();
             Console.WriteLine("**********************");
             Console.WriteLine();
+           
+            // 7 Uzduotis
+            Console.WriteLine("***** 7 Uzduotis *****");
+            new Uzduotys.Uzduotis7.Sprendimas();
+            Console.WriteLine("**********************");
+            Console.WriteLine();           
+            
+            // 7 Uzduotis Extra
+            Console.WriteLine("***** 7 Uzduotis Plius *****");
+            new Uzduotys.Uzduotis7Plius.Sprendimas();
+            Console.WriteLine("**********************");
+            Console.WriteLine();
+            
+            // 8 Uzduotis
+            Console.WriteLine("***** 8 Uzduotis *****");
+            new Uzduotys.Uzduotis8.Sprendimas();
+            Console.WriteLine("**********************");
+            Console.WriteLine();
 
+            // 9 Uzduotis
+            Console.WriteLine("***** 9 Uzduotis *****");
+            new Uzduotys.Uzduotis9.Solution();
+            Console.WriteLine("**********************");
+            Console.WriteLine();
+            */
+
+            // 9 Uzduotis
+            Console.WriteLine("***** 10 Uzduotis *****");
+            new Uzduotys.Uzduotis10.Solution();
+            Console.WriteLine("**********************");
+            Console.WriteLine();
 
             Console.ReadLine();
         }

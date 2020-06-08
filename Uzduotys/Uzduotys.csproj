@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Uzduotis10\Solution.cs" />
     <Compile Include="Uzduotis2\Sprendimas.cs" />
     <Compile Include="Uzduotis1\Sprendimas.cs" />
     <Compile Include="Program.cs" />
@@ -51,6 +52,13 @@
     <Compile Include="Uzduotis4\Sprendimas.cs" />
     <Compile Include="Uzduotis5\Sprendimas.cs" />
     <Compile Include="Uzduotis6\Sprendimas.cs" />
+    <Compile Include="Uzduotis7Plius\Sprendimas.cs" />
+    <Compile Include="Uzduotis7\Sprendimas.cs" />
+    <Compile Include="Uzduotis8\Sprendimas.cs" />
+    <Compile Include="Uzduotis9\DataParser.cs" />
+    <Compile Include="Uzduotis9\Time.cs" />
+    <Compile Include="Uzduotis9\Solution.cs" />
+    <Compile Include="Uzduotis9\Validator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
